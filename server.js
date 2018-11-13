@@ -27,7 +27,7 @@ var config = {
     }
 }
 
-app.get("/db",function(req,res){
+/*app.get("/db",function(req,res){
 var  executeQuery = function(res, query){             
     sql.connect(config, function (err) {
         if (err) {   
@@ -40,7 +40,7 @@ var  executeQuery = function(res, query){
     });
 }
 });
-
+*/
 
 app.listen(8078,function(){
 
